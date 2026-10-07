@@ -1,0 +1,2 @@
+{ "name": "startflow", "owner": { "name": "taehyeooo" },
+  "plugins": [ { "name": "startflow", "source": "./", "description": "새 서비스 처음 세팅(나만의 기본값)" } ] }
