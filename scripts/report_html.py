@@ -20,7 +20,7 @@ CSS = """
 @media (prefers-color-scheme:dark){:root{--bg:#141716;--card:#1d2120;--ink:#ecebe6;--muted:#a9a8a2;--line:#2e3331;--accent:#ff7a5c;--ok:#5fc48f;--warn:#f0b250;--fail:#ff8a80}}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 -apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR",sans-serif}
 main{max-width:980px;margin:0 auto;padding:32px 20px 64px}header{margin-bottom:24px}
-.tag{display:inline-block;font-size:12px;padding:2px 10px;border-radius:999px;border:1px solid var(--line);color:var(--muted);margin-right:6px}
+.tag{display:inline-block;white-space:nowrap;font-size:12px;padding:2px 10px;border-radius:999px;border:1px solid var(--line);color:var(--muted);margin-right:6px}
 .st{font-weight:600}.st.ok{color:var(--ok);border-color:var(--ok)}.st.warn{color:var(--warn);border-color:var(--warn)}.st.fail{color:var(--fail);border-color:var(--fail)}
 h1{font-size:24px;margin:10px 0 6px}h2{font-size:17px;margin:0 0 12px}.sum{color:var(--muted);margin:0}
 section{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin:16px 0}
