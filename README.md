@@ -15,6 +15,10 @@ Trova를 만들며 직접 쓴 지침(CLAUDE.md)과 작업 중 정한 규칙들�
 
 이미 있는 파일은 덮어쓰지 않고 `*.startflow.*`로 옆에 만듭니다.
 
+## 리포트
+작업이 끝나면 HTML 리포트를 남깁니다: `~/.config/flow-reports/<플러그인>/<시각>-<종류>.html`.
+다섯 flow 플러그인(startflow·devflow·qaflow·uiflow·benchflow)의 리포트가 한 목록 `~/.config/flow-reports/index.html`에 모입니다(최신이 위, 정상/확인 필요/실패 표시).
+
 ## 설치·사용
 ```
 /plugin marketplace add taehyeooo/startflow
