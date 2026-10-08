@@ -1,7 +1,7 @@
 {
   "name": "startflow",
   "description": "새 서비스를 시작할 때 '나만의 기본값'을 한 번에 세팅 — 지침(CLAUDE.md: 비용 0원·검증 먼저·작업 기록·성능 근거·Git 규칙), 시크릿 무시 규칙, .env.example, 기록 문서, devflow·qaflow·uiflow·benchflow 설정 뼈대",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": { "name": "taehyeooo" },
   "repository": "https://github.com/taehyeooo/startflow",
   "license": "MIT",
